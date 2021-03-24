@@ -36,7 +36,7 @@ function Pomodoro() {
           focusBreak: 0,
           secondsRemaining: allTheThings.breakVal * 60,
         });
-        new Audio(`https://bigsoundbank.com/UPLOAD/mp3/1482.mp3`).play();
+        new Audio(`https://vgmsite.com/soundtracks/donkey-kong-country-snes/zzprueftal/23%20Fanfare.mp3`).play();
       } else if (
         !allTheThings.focusBreak &&
         allTheThings.secondsRemaining === 0
@@ -46,7 +46,7 @@ function Pomodoro() {
           focusBreak: 1,
           secondsRemaining: allTheThings.focusVal * 60,
         });
-        new Audio(`https://bigsoundbank.com/UPLOAD/mp3/1482.mp3`).play();
+        new Audio(`https://vgmsite.com/soundtracks/donkey-kong-country-snes/tzzbepdfam/29%20Extra%20Life%20Balloon.mp3`).play();
       } else {
         setAllTheThings({
           ...allTheThings,
